@@ -1,0 +1,26 @@
+body {text-align: center; 
+    background-image: url(/assets/images/FB_IMG_1535766319122.jpg);
+    background-size: 100%;
+}
+
+/*container for index.html */
+.container {
+    border: thick white;
+}
+
+
+
+/* Greater than 641px and less than 990px, Tablet */
+@media (min-width:641px) and (max-width:990px) {
+    body {
+       text-align: center;
+    }
+
+}
+
+/* Less than 640px, Mobile */
+@media screen and (max-width:641px) {
+  body {
+        text-align: center; 
+    }
+  }
