@@ -53,6 +53,184 @@
         </nav>
     </header>
 
+    <div class="container">
+        <button type="button" class="collapsible">Two Clicks</button>
+        <div class="content">
+            <p>Cold turkey
+                <br>
+                Its not gonna be easy it never is
+                <br>
+                Kick the habit for a dream
+                <br>
+                Regurgitated goals arent out of reach
+                <br>
+                You better learn how to pick up after yourself
+                <br>
+                Ive been learnin that my fuckin self
+                <br>
+                Patience is a virtue
+                <br>
+                But it will hurt you
+                <br>
+                You better watch your fuckin step
+                <br>
+                Take a deep breath
+                <br>
+                Relax</p>
+        </div>
+
+        <button type="button" class="collapsible">Number 2 Pencil</button>
+        <div class="content">
+            <p>Fuck you and your lines in the sand
+                <br>
+                Fuck you and your ball point pen
+                <br>
+                I refuse to believe that this is how the cookie crumbles
+                <br>
+                Ive seen your face and it looks like trouble
+                <br>
+                Im not walkin on eggshells anymore
+                <br>
+                You thankless whore
+                <br>
+                <br>
+
+                Dont you call me
+                <br>
+                Something that im not
+                <br>
+                More like bottom dollar than white collar
+                <br>
+                A piece paper doesnt make you
+                <br>
+                A fuckin scholar
+                <br>
+                <br>
+
+                Its darkest. Beneath the candle stick
+                <br>
+                You ignorant Piece of shit.
+                <br>
+                <br>
+
+                You’ve been caught orange handed
+                <br>
+                <br>
+
+                Oh its just been one of those days
+                <br>
+                Let me tell you its just been one of those days
+                <br>
+                All god damn week
+                <br>
+                Been one of those days
+                <br>
+                All. God. Damn. Week.
+                <br>
+                Its been one of those days
+                <br>
+                Livin with my tongue in my cheek</p>
+        </div>
+
+        <button type="button" class="collapsible">Burner</button>
+        <div class="content">
+            <p>Knock knock peep hole in one
+                <br>
+                The fun and games have just begun
+                <br>
+                Ill put your pet away. Its so ironic how you cant get away from your get away. 
+                <br>
+                <br>
+
+                We’re not here for drugs or money. 
+                <br>
+                We vanquish families cause we think that its funny. 
+                <br>
+                Your last resort is comin up short
+                <br>
+                <br>
+
+                One step ahead. Broken leg. Play my song. BONEHEAD
+                <br>
+                not from this earth but we thrive. On feasting on the whites of your eyes. 
+                <br>
+                <br>
+
+                You better check your tone old man
+                <br>
+                Or ill break your eggs. </p>
+        </div>
+
+        <button type="button" class="collapsible">Where's The Unity</button>
+        <div class="content">
+  <p>Toss and turn with my 9-5
+      <br>
+    Sunshines creepin through my bedroom blinds. 
+    <br>
+    Live in circles like a caul de sack
+    <br>
+    Now its time to face the fuckin facts
+    <br>
+    I dont wanna face the fuckin facts
+    <br>
+    <br>
+    
+    I know i got a leaf to turn
+    <br>
+    I know i dont  got a bridge left to burn
+    <br>
+    <br>
+    
+    Take the dice off the rear view mirror
+    <br>
+    Now picture seems so much clearer
+    <br>
+    Yeah my bank accounts flat. 
+    <br>
+    I dont wanna worry about that. 
+    <br>
+    Guess its just time to face the fuckin facts
+    <br>
+    <br>
+    
+    Break the house save the china cabinet. 
+    <br>
+    Send your paycheck to an elected tyrant. 
+    <br>
+    <br>
+    
+    I wanna be a tolerant mercenary 
+    <br>
+    But i wont stay. I wont stay. 
+    <br>
+    Silent. 
+    <br>
+    Wont stay silent. 
+    <br>
+    Silent. </p>
+</div>
+
+        
+
+
+    </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
